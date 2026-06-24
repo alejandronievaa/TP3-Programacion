@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f6f7;
+    color: #333;
+}
+
+.volver {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.volver:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+button {
+    padding: 10px 15px;
+    background: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #34495e;
+}
+
+/* === Estilos del Ejercicio 1 (Flexbox) === */
+.contenedor-flex {
+    display: flex;
+    flex-wrap: wrap; /* Envoltura solicitada */
+    gap: 15px;
+    justify-content: center; /* Distribución */
+    margin-top: 20px;
+}
+
+.tarjeta {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.destacado {
+    border: 2px solid #e74c3c;
+    background-color: #fdf2e9;
+}
+
+/* === Estilos del Ejercicio 2 y 3 (Formulario y Tabla) === */
+form {
+    margin-bottom: 20px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.btn-borrar {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.btn-borrar:hover {
+    background: #c0392b;
+}
+
+.btn-agregar {
+    padding: 8px;
+    background: #2ecc71;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-agregar:hover {
+    background: #27ae60;
+}
